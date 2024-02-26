@@ -56,7 +56,7 @@ formIngreso.onsubmit = (event) => {
         redireccionarEnSegundos(5, "perfil_usuario.html");
         break;
       case 1:
-        redireccionarEnSegundos(5, "familiar.html");
+        redireccionarEnSegundos(5, "perfil_familiar.html");
         break;
       case 2:
         redireccionarEnSegundos(5, "funcionario.html");
