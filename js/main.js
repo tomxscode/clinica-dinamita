@@ -59,7 +59,7 @@ formIngreso.onsubmit = (event) => {
         redireccionarEnSegundos(5, "perfil_familiar.html");
         break;
       case 2:
-        redireccionarEnSegundos(5, "funcionario.html");
+        redireccionarEnSegundos(5, "perfil_funcionario.html");
         break;
     }
   }
