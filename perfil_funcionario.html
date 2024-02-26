@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://bootswatch.com/5/minty/bootstrap.css">
+    <title>Administración</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white">Clinica Dinamita</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="./index.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="./prestadores_salud.html">Prestadores de Salud</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="./ingreso.html">
+                                <span class="btn btn-secondary">Cerrar sesión</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container p-5">
+            <div class="titulo">
+                <h1>Panel de control administración pacientes y exámenes</h1>
+            </div>
+            <div class="container-xl px-4 mt-4">
+                <nav class="nav nav-borders">
+                    <a class="nav-link ms-0" href="https://www.bootdey.com/snippets/view/bs5-edit-profile-account-details" target="__blank">Personal médico</a>
+                    <a class="nav-link active" href="https://www.bootdey.com/snippets/view/bs5-profile-billing-page" target="__blank">Personal paramédico</a>
+                    <a class="nav-link" href="https://www.bootdey.com/snippets/view/bs5-profile-security-page" target="__blank">Personal administrativo</a>
+                    <a class="nav-link" href="https://www.bootdey.com/snippets/view/bs5-edit-notifications-page"  target="__blank">Personal operativo</a>
+                </nav>
+                <hr class="mt-0 mb-4">
+                <div class="row">
+                    <div class="col-lg-4 mb-4">
+                        <div class="card h-100 border-start-lg border-start-primary">
+                            <div class="card-body">
+                                <div class="small text-muted">Atenciones ambulatorias</div>
+                                <div class="h3">978 mes actual</div>
+                                <a class="text-arrow-icon small" href="#">
+                                    Ver meses anteriores
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="card h-100 border-start-lg border-start-secondary">
+                            <div class="card-body">
+                                <div class="small text-muted">Atenciones urgencia</div>
+                                <div class="h3">472 mes actual</div>
+                                <a class="text-arrow-icon small link-secondary" href="#">
+                                    Ver meses anteriores
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="card h-100 border-start-lg border-start-primary">
+                            <div class="card-body">
+                                <div class="small text-muted">Atenciones prestadores salud</div>
+                                <div class="h3 d-flex align-items-center">219 mes actual</div>
+                                <a class="text-arrow-icon small" href="#">
+                                    Ver meses anteriores
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-header-actions mb-4">
+                    <div class="card-header h5">
+                        Registro nuevos pacientes
+                        <button class="btn btn-primary" type="button">Agregar nuevo paciente manual</button>
+                        <button class="btn btn-secondary" type="button">Agregar nuevo familiar manual</button>
+                    </div>
+                    <div class="card-body px-0">
+                        <div class="d-flex align-items-center justify-content-between px-4">
+                            <div class="d-flex align-items-center">
+                                <div class="ms-4">
+                                    <div class=" small text-secondary">74 años, Osorno</div>
+                                    <div class="text-xs text-muted">Esteban Dido De Acá</div>
+                                </div>
+                            </div>
+                            <div class="ms-4 small">
+                                <div class="badge bg-light text-dark">Ingresado</div>
+                                <a href="#">Editar</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="d-flex align-items-center justify-content-between px-4">
+                            <div class="d-flex align-items-center">
+                                <div class="ms-4">
+                                    <div class="small text-secondary">89 años, La Serena</div>
+                                    <div class="text-xs text-muted">Aquiles Baeza Cabros</div>
+                                </div>
+                            </div>
+                            <div class="ms-4 small">
+                                <a class="text-muted me-3" href="#">Asignar médico manual</a>
+                                <a href="#">Editar</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="d-flex align-items-center justify-content-between px-4">
+                            <div class="d-flex align-items-center">
+                                <div class="ms-4">
+                                    <div class="small text-secondary">52 años, Santiago</div>
+                                    <div class="text-xs text-muted">Homero Simpsons</div>
+                                </div>
+                            </div>
+                            <div class="ms-4 small">
+                                <a class="text-muted me-3" href="#">Asignar médico manual</a>
+                                <a href="#">Editar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-4">
+                    <div class="card-header h5">Registro exámenes recientes</div>
+                    <div class="card-body p-0">
+                        <div class="table-responsive table-billing-history">
+                            <table class="table mb-0">
+                                <thead>
+                                    <tr>
+                                        <th class="border-gray-200" scope="col">Código identificador examen efectuado prestador</th>
+                                        <th class="border-gray-200" scope="col">Fecha efectiva de examen prestador</th>
+                                        <th class="border-gray-200" scope="col">Costo usuario preferente Dinamita</th>
+                                        <th class="border-gray-200" scope="col">Estado</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>#39201</td>
+                                        <td>23/02/2024</td>
+                                        <td>$89.990</td>
+                                        <td><span class="badge bg-light text-dark">Pendiente</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>#38594</td>
+                                        <td>23/02/2024</td>
+                                        <td>$29.980</td>
+                                        <td><span class="badge bg-success">Pagado</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>#38223</td>
+                                        <td>22/02/2024</td>
+                                        <td>$14.000</td>
+                                        <td><span class="badge bg-success">Pagado</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>#38125</td>
+                                        <td>20/02/2024</td>
+                                        <td>$54.980</td>
+                                        <td><span class="badge bg-success">Pagado</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="py-3 my-4 bg-primary">
+        <p class="text-center text-white">© 2024 Dinamita Meds</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous">
+    </script>
+</body>
+</html>
