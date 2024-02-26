@@ -1,0 +1,10 @@
+.icono-descarga a {
+    max-width: 30px;
+    display: inline-block;
+    
+}
+.icono-descarga img {
+    max-width: 100%;
+    height: auto; 
+}
+
